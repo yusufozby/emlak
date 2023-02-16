@@ -463,6 +463,60 @@ padding: 10px;
 .guess-qty {
     padding: 0 5px;
 }
+
+
+.payment-feature-icon {
+width: 45px;
+font-size: 20px;
+
+
+}
+.payment-feature-title {
+   font-weight: 400;
+   font-size: 15px;
+
+
+   
+}
+.payment-feature {
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-weight: 300;
+    margin-top: 5px;
+}
+.no-flex-wrap {
+    flex-wrap: nowrap;
+}
+.m-5 {
+    margin-bottom: 20px ;
+}
+.column {
+    display: flex;
+    flex-direction: column
+}
+.aircover-container {
+    width: 140px;
+    height: 70px;
+}
+.detail-info-paragraph {
+    color: #363636  ;
+    font-weight: 300;
+}
+.bedroom-title {
+  
+    font-weight: 400;
+}
+.bedroom-img {
+    width: min(350px , 100%);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#YatakOdası {
+    margin-top: 10px;
+}
+#YatakOdasıDetay {
+    font-size: 12px;
+}
 @media screen and (max-width:768px) {
   .payment-card {
     margin-left: 0;
