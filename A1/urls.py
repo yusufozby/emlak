@@ -9,4 +9,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index,name="index"),
     path('detail/<title>/',detail,name="detail"),
+    path('signin/' , signin , name='signin')
 ] + static (settings.MEDIA_URL,document_root = MEDIA_ROOT)

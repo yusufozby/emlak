@@ -15,3 +15,7 @@ def detail(request,title):
         'post':post,
     }
     return render(request,"detail.html",context)
+
+def signin(request):
+    
+    return render(request , "signin.html",)
